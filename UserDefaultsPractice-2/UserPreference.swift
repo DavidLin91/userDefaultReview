@@ -12,6 +12,8 @@ import Foundation
 class UserPreference {
     
     // a Singleton's initializer NEEDS to be private - this ensures that ONLY one instance of this class is used throughout the application
-    
+    private init() {}
+
+    static let shared = UserPreference()
     
 }

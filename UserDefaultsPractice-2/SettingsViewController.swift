@@ -8,10 +8,7 @@
 
 import UIKit
 
-enum UnitMeasurement: String {
-    case miles = "Miles"
-    case kilometers = "Kilometers"
-}
+
 
 
 class SettingsViewController: UITableViewController {
